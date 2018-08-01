@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="Keywords" content="关键词">
+    <meta name="Description" content="描述">
+    <title>ajax-weather</title>
+    <link rel="stylesheet" href="css/ajax.css">
+    <script type="text/javascript" src="js/template-web.js"></script>
+  </head>
+  <body>
+    <section>
+      <header>
+        <h1>全国天气查询</h1>
+      </header>
+      <input type="text" placeholder="请输入要查询的城市" id="citys">
+      <ul class="container-box">
+        <script type='text/html' id="templt">
+          <li>
+            <h3>城市：{{result.city}}</h3>
+          </li>
+          <li>
+            <h3>时间：{{result.date}}</h3>
+          </li>
+          <li>
+            <h3>星期：{{result.week}}</h3>
+          </li>
+          <li>
+            <h3>天气：{{result.weather}}</h3>
+          </li>
+          <li>
+            <h3>风力和风向</h3>
+            <span>{{result.windpower}}</span>
+            <span>{{result.winddirect}}</span>
+          </li>
+          <li>
+            <ul>
+              {{each result.index val index}}
+                <li>
+                  <h3>{{val.iname}}</h3>
+                </li>
+                <li>{{val.ivalue}}</li>
+                <li>{{val.detail}}</li>
+              {{/each}}
+            </ul>
+          </li>
+        </script>
+      </ul>
+    </section>
+     <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/ajax.js"></script>
+  </body>
+</html>

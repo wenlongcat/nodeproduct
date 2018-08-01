@@ -1,0 +1,142 @@
+body{
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+a{
+	text-decoration: none;
+	color: #ccc;
+	outline: none;
+}
+ul{
+	margin: 0;
+	list-style:none;
+	padding: 0;
+	background-color: rgba(242,188,188,.5);
+}
+canvas{
+	background-color: #000;
+}
+/*info   信息部分*/
+.info,#btnbox{
+	position: absolute;
+}
+div.info{
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	height: 400px;
+	color: #fff;
+	transform: translateX(-50%) translateY(-50%);
+	background-color: rgba(82,82,79,.3);
+	border-radius: 10px;
+	box-shadow: inset 0 0 5px #F4E9E9;
+	animation: block 1s;
+}
+div.info .link{
+	display: row-flex;
+	justify-content: space-between;
+	text-align: center;
+}
+div.info .link a{
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+div.info .link a>span{
+	position: absolute;
+	width: 100%;
+	top: 100%;
+	left: 0;
+	font-size: 12px;
+}
+div.info .link a.git{
+	background: url('/www/img/github.jpg') no-repeat center /50px 50px;
+}
+div.info .content{
+	text-align: center;
+	margin-top: 30px;
+}
+div.info .info_m{
+	margin-left: 150px;
+}
+div.info img{
+	float: left;
+	margin: 5px 0 0 30px;
+	width: 100px;
+	height: 100px;
+}
+@keyframes block{
+	0%{top: -50%;}
+	100%{top: 50%;}
+}
+/*按钮部分*/
+#btnbox{
+	position: absolute;
+	top:80px;
+	right: 150px;
+	width: 80px;
+	border: 1px solid yellow;
+	border-radius: 5px;
+	height: 30px;
+	overflow: hidden;
+}
+#btnbox:hover{
+	color: red;
+	background-color: rgba(246,68,68,0.8);
+	box-shadow: inset 0 0 3px #fff;
+}
+#btnbox ul{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 320px;
+	height: 30px;
+	animation: move 5s ;
+}
+
+#btnbox ul>li{
+	float: left;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	user-select: none;
+	z-index: 10;
+	cursor: pointer;
+	color: #fff;
+	font-weight: bolder;
+}
+@keyframes move{
+	0%{left:0;}
+	20%{left: -80px;}
+	40%{left: -160px;}
+	60%{left: -240px;}
+	100%{left:-240px;}
+}
+/*手指*/
+.point{
+	position: absolute;
+	top: 80px;
+	right: 80px;
+	font-size: 60px;
+	color: #fff;
+	z-index: 26;
+	text-align: center;
+	width: 60px;
+	height: 30px;
+	user-select: none;
+	line-height: 30px;
+	animation: run 1s infinite;
+}
+@keyframes run{
+	0% {right: 80px;}
+	50%{right: 86px;}
+	100%{right:80px;}
+}

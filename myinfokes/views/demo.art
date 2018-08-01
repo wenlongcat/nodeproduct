@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="Key
+    words" content="关键词">
+    <meta name="Description" content="描述">
+    <title>demo</title>
+    <link rel="stylesheet" href="/www/css/tools.css">
+    <link rel="stylesheet" href="/www/css/demo.css">
+  </head>
+  <body>
+    <section id="container">
+      <header id="head">
+        <div class="left"></div>
+        <nav class="right">
+          <ul>
+            <li datasrc='do'><a href="start.html">首页</a></li>
+            <li datasrc='re'><a href="demo.html">我的demo</a></li>
+            <li datasrc='mi'><a href="http://www.yxbdream.top/My_info.html">关于我</a></li>
+            <li datasrc='fa'><a href="//www.yxbdream.top/skills.html">相关技能</a></li>
+          </ul>
+        </nav>
+        <audio src="/www/music/do.mp3" id="audio"></audio>
+      </header>
+      <div id="content">
+        <div>
+          <a href="http://www.yxbdream.top/static/fir_im/index.html">
+            <img src="/www/img/fir_im1.png" alt="fir">
+            <span><strong>项目名称：fir.im</strong><br>项目描述：fir.im网站的实现，该项目主要通过html,css,jquery,sass,引入了iconfont图标矢量，在实现首页效果时出现了利用js控制运动无效的问题，主要原因是同一个元素上animation动画效果和transition效果冲突，jq中的效果一般以transition来过渡，所以这里统一用css中的animation来实现了效果</span>
+          </a>
+        </div>
+        <div>
+          <a href="http://www.yxbdream.top/static/ajax/ajax.html">
+            <img src="/www/img/weather1.png" alt="weather">
+            <span>
+              <strong>项目名称：全国天气搜索</strong><br>项目描述：demo简单实现ajax请求数据渲染，主要技术：html,css,jq,template模板,通过ajax请求极速数据api接口获取jsonp数据，template渲染
+            </span>
+          </a>
+        </div>
+        <div>
+          <a href="http://www.yxbdream.top/static/modebol/mobel.html">
+            <img src="/www/img/mobel1.png" alt="mobel">
+            <span>
+               <strong>项目名称：移动端外卖项目</strong><br>项目描述：demo主要是某外卖信息简要介绍，主要技术：html,css,sass,js,插件：zepto，swiper滑屏插件,效果实现主要利用css的animation来实现，通过添加class达到运动效果
+            </span>
+          </a>
+        </div>
+        <div>
+          <a href="http://www.yxbdream.top/static/mygame/plane.html">
+            <img src="/www/img/plane2.png" alt="plane">
+            <span>
+              <strong>项目名称：飞机大战</strong><br>项目描述：demo简单实现飞机大战gram，主要技术：html,css,js,es6,模块化区分功能，简易封装碰撞函数，飞机构建函数，子弹生成函数
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <script type='text/javascript' src='https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js'></script>
+    <script type='text/javascript' src='/www/js/tools.js'></script>
+    <script type="text/javascript" src="/www/js/demo.js"></script>
+  </body>
+</html>

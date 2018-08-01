@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <html xmlns=http://www.w3.org/1999/xhtml xmlns:bd=http://www.baidu.com/2010/xbdml>
+    <META http-equiv="X-UA-Compatible" content=IE=Edge>
+    <meta name="Keywords" content="关键词">
+    <meta name="Description" content="评论">
+    <title>技能图</title>
+    <link rel="stylesheet" href="/www/css/skills.css">
+  </head>
+  <body>
+    <section id="box">
+      <ul id="op">
+        <li><span>条形分布</span></li>
+        <li><span>雷达分布</span></li>
+        <li>
+          <span>扇形分布</span>
+        </li>
+      </ul>
+    <div id="videobox">
+      <video src="/www/video/dream.mp4"  loop poster="/www/img/skill_bg.png" id="ovideo">
+      </video>
+      <ul id="tool">
+          <li class="isplay"></li>
+          <li class="timeinfo">
+            <span>00:00</span>
+            /
+            <span>00:00</span>
+          </li>
+          <li class="pre"></li>
+          <li class="timer">
+            <div class="jz"></div>
+            <div class="bf"></div>
+          </li>
+          <li class="next"></li>
+          <li class="sybox">
+            <div class="muted"></div>
+            <div class="sy">
+              <div></div>
+            </div>
+          </li>
+          <li class="speed">
+            正常
+            <ul class="speed_sel">
+              <li speed-data="1.5">1.5X</li>
+              <li speed-data="1.2">1.2X</li>
+              <li speed-data="1.0">1.0X</li>
+            </ul>
+          </li>
+          <li class="allscreen" onoff = "can"></li>
+      </ul>
+      <div class="cplay"></div>
+    </div>
+    <div id="main"></div>
+    </section>
+    <script src="/www/js/echarts.js"></script>
+    <script type='text/javascript' src='https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js'></script>
+    <script type="text/javascript" src="/www/js/skills.js"></script>
+  </body>
+</html>

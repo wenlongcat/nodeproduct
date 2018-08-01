@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+input{
+  border: none;
+  outline: none;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.clearfix:after{
+  display: block;
+  content: "";
+  clear: both;
+  line-height:0;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix{
+  zoom:1;
+}

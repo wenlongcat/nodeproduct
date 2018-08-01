@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/fir_im\/css\/base\.scss}line{font-family:\000031}}
+body, p {
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/fir_im\/css\/base\.scss}line{font-family:\000034}}
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/fir_im\/css\/base\.scss}line{font-family:\0000310}}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/fir_im\/css\/base\.scss}line{font-family:\0000313}}
+a {
+  text-decoration: none;
+  outline: none;
+  color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/fir_im\/css\/base\.scss}line{font-family:\0000318}}
+img {
+  border: 0;
+  vertical-align: middle; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/fir_im\/css\/base\.scss}line{font-family:\0000322}}
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/fir_im\/css\/base\.scss}line{font-family:\0000327}}
+.clearfix {
+  zoom: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/fir_im\/css\/base\.scss}line{font-family:\0000330}}
+.fl {
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/fir_im\/css\/base\.scss}line{font-family:\0000333}}
+.fr {
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/fir_im\/css\/base\.scss}line{font-family:\0000337}}
+.useselector {
+  -moz-user-select: none;
+  -o-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/fir_im\/css\/base\.scss}line{font-family:\0000345}}
+select {
+  color: inherit;
+  font-family: "Microsoft YaHei", "微软雅黑", "Arial", "黑体", "宋体", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/fir_im\/css\/base\.scss}line{font-family:\0000349}}
+.noshow {
+  display: none; }

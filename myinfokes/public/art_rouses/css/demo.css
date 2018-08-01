@@ -1,0 +1,47 @@
+#container{
+  width: 100%;
+  height: 100%;
+}
+#content{
+  width: 100%;
+  padding-top: 5%;
+  height: 95%;
+  display: inline-flex;
+  justify-content: space-around;
+  background-color: pink;
+}
+#content>div{
+  float: left;
+  width: 20%;
+  height: 90%;
+  overflow: hidden;
+  transform: translateY(-200%);
+  -webkit- transform: translateY(-200%);
+}
+@keyframes t2b{
+  from{}
+  to{transform: translateY(0);
+    -webkit-transform: translateY(0);}
+}
+#content.animate>div{
+  animation: t2b 1s ease-in-out forwards;
+}
+#content>div img{
+  width: 100%;
+  height: 100%;
+}
+#content>div span.hover{
+  bottom: 0;
+}
+#content>div span{
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  line-height: 30px;
+  transition: 0.8s;
+  font-size: 16px;
+  left: 0;
+  bottom: -100%;
+}

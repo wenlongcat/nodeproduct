@@ -1,0 +1,40 @@
+@import 'base.scss';
+
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  section{
+    width: 600px;
+    padding-bottom: 35%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url('../img/bg.png');
+    background-color: gray;
+    background-size: 100% 100%;
+    header{
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+    }
+    #citys{
+      position: absolute;
+      top: 70px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 50%;
+      height: 30px;
+      border: 1px solid #DD8E4A;
+      border-radius: 5px;
+    }
+    .container-box{
+      margin-top: 40px;
+      >li{
+        padding-left: 30px;
+      }
+    }
+  }
+}

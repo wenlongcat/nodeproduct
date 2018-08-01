@@ -1,0 +1,248 @@
+body{
+  margin: 0;
+  overflow: hidden;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  outline: none;
+  color: #ccc;
+}
+body,html{
+  height: 100%;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#box{
+  width: 100%;
+  height: 100%;
+}
+#op{
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  height: 20%;
+  display: inline-flex;
+  justify-content: space-around;
+}
+#op>li{
+  display: inline-block;
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 50%;
+  color: #022D57;
+  background-color: rgba(0,0,0,.1);
+}
+#op>li>span{
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 20px;
+}
+#main{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.3);
+}
+#videobox{
+  position: absolute;
+  /*使图片铺满标签*/
+  top: 20%;
+  left: 15%;
+  width: 70%;
+  min-width: 642px;
+  z-index: 5;
+  height: 70%;
+  background-color: red;
+}
+#videobox.allscrren1{
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#ovideo{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+} 
+#tool{
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(7,18,15,.5);
+  display: inline-flex;
+  justify-content: space-between;
+  bottom: 0;
+  left: 0;
+}
+#tool li{
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+}
+#tool>li:nth-of-type(1){
+  margin-left: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
+#tool .isplay{
+  background: url('../img/start.png') no-repeat center / 30px;
+}
+#tool .play{
+  background: url("../img/play.png") no-repeat center / 30px;
+}
+#tool .timeinfo{
+  width: 20%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 30px;
+}
+#tool .muted{
+  background:url("../img/sy.png") no-repeat center / 30px;
+}
+#tool .nomuted{
+  background:url("../img/jy.png") no-repeat center / 30px;
+}
+#tool .pre{
+  background: url("../img/pre1.png") no-repeat center / 30px;
+}
+#tool .next{
+  background: url("../img/pre1.png") no-repeat center / 30px;
+  transform: rotateZ(180deg);
+  -webkit-transform: rotateZ(180deg);
+}
+#tool .allscreen{
+  background: url("../img/qp.png") no-repeat center / 30px;
+}
+#tool>li:nth-of-type(6){
+  width: 30%;
+}
+#tool>li:nth-of-type(6)>div{
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+#tool .sybox .sy{
+  position: relative;
+  width: 50%;
+  height: 10px;
+  margin: 10px 0 0 10px;
+  border-radius: 5px;
+  background-color: #C2BABA;
+}
+#tool .sy>div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  border-radius: 5px;
+  background-color: red;
+}
+#tool .timer{
+  position: absolute;
+  top: -20px;
+  left: 0;
+  height: 10px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #E4D9D9;
+}
+#tool .timer>div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #958686;
+}
+#tool .timer .jz{
+  z-index: 4;
+}
+#tool .timer .bf{
+  z-index: 10;
+  background-color: #CC1C1C;
+}
+#tool .speed{
+  position: relative;
+  border-radius: 5px;
+  background-color: #93999F;
+  line-height: 30px;
+  font-size: 10px;
+  text-align: center;
+  width: 5%;
+  color: #fff;
+}
+#tool .speed>ul{
+  position: absolute;
+  display: none;
+  top: -120px;
+  left: -1.5%;
+  width: 40px;
+  padding-top: 5px;
+  height: 90px;
+  background-color: rgba(44,42,42,.8);
+}
+#tool .speed>ul>li{
+  width: 100%;
+  height: 30px;
+  margin: 0;
+  text-align: center;
+}
+#tool .select{
+  background-color: red;
+}
+#tool .hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  background-color: #837A7A;
+}
+#videobox .cplay{
+  position: absolute;
+  right: 5px;
+  bottom: 80px;
+  width: 50px;
+  height: 50px;
+  background: url("../img/start.png") no-repeat center / 80px;
+  border-radius: 50%;
+  background-color: rgba(243,225,225,.8);
+}
+#videobox .leave{
+  display: none;
+}
+/*op动画*/
+@keyframes s2big{
+  0%,100%{transform: scale(1.0);-weblit-transform: scale(1.0);}
+  20%{transform: scale(1.5);-weblit-transform: scale(1.5);}
+  40%{transform: scale(0.5);-weblit-transform: scale(0.5);}
+  60%{transform: scale(1.2);-weblit-transform: scale(1.2);}
+  80%{transform: scale(0.8);-weblit-transform: scale(0.8);}
+}
+@keyframes shake{
+  0%,100%{transform: translateX(0);-webkit-transform: translateX(0);}
+  20%{transform: translateX(-15px);-webkit-transform: translateX(-15px);}
+  40%{transform: translateX(11px);-webkit-transform: translateX(11px);}
+  60%{transform: translateX(-6px);-webkit-transform: translateX(-6px);}
+  80%{transform: translateX(3px);-webkit-transform: translateX(3px);}
+}
+#op .animate{
+  animation: s2big 2s ease-in-out forwards;
+}
+#op .n2hover{
+  animation: shake 2s ease-in-out forwards;
+}

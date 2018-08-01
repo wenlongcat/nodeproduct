@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+     <html xmlns=http://www.w3.org/1999/xhtml xmlns:bd=http://www.baidu.com/2010/xbdml>
+     <META http-equiv="X-UA-Compatible" content=IE=Edge>
+    <meta name="Keywords" content="关键词">
+    <meta name="Description" content="描述">
+    <title>屏幕首页</title>
+    <link rel="stylesheet" href="/www/css/tools.css">
+    <link rel="stylesheet" href="/www/css/start.css">
+  </head>
+  <body>
+    <div class="mask">
+      <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+    </div>
+    <section id="container">
+      <header id="head">
+        <div class="left"></div>
+        <nav class="right">
+          <ul>
+            <li datasrc='do'><a href="http://www.yxbdream.top/start.html">首页</a></li>
+            <li datasrc='re'><a href="http://www.yxbdream.top/demo.html">我的demo</a></li>
+            <li datasrc='mi'><a href="http://www.yxbdream.top/My_info.html">关于我</a></li>
+            <li datasrc='fa'><a href="http://www.yxbdream.top/skills.html">相关技能</a></li>
+          </ul>
+        </nav>
+        <audio src="/www/music/do.mp3" id="audio"></audio>
+      </header>
+      <div id="content">
+        <ul class="demobox">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <ul class="list">
+          <li>
+            <div>
+              <img src="/www/img/weather.png" alt="weather">
+            </div>
+            <div>
+              <p>demo主要功能:<br>通过jq的ajax请求天气情况<br>点击了解详情</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="/www/img/plane.png" alt="plane">
+            </div>
+            <div>
+              <p>demo主要功能:<br>简单模拟飞机大战功能<br>点击了解详情</p>
+            </div>
+          </li>
+          <li>
+           <div>
+              <img src="/www/img/fir_im.png" alt="fir">
+            </div>
+            <div>
+              <p>demo主要功能:<br>fir网站模拟效果<br>点击了解详情</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="/www/img/mobel.png" alt="mobel">
+            </div>
+            <div>
+              <p>demo主要功能:<br>移动端外卖简介<br>点击了解详情</p>
+            </div>
+          </li>
+        </ul>
+        <audio src="/www/music/modswwb.mp3" id="fisaudio" loop="loop"></audio>
+        <div id="music">
+          <div class="ifplay"></div>
+          <div class="pre"></div>
+          <div class="next"></div>
+        </div>
+      </div>
+    </section>
+    <script type='text/javascript' src='https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js'></script>
+    <script type='text/javascript' src='/www/js/polyfill.js'></script>
+    <script type='text/javascript' src='/www/js/tools.js'></script>
+    <script type='text/javascript' src='/www/js/start.js'></script>
+  </body>
+</html>

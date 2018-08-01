@@ -1,0 +1,41 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/modebol\/sass\/base\.scss}line{font-family:\000031}}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/modebol\/sass\/base\.scss}line{font-family:\000038}}
+ul, ol {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/modebol\/sass\/base\.scss}line{font-family:\0000311}}
+a {
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/modebol\/sass\/base\.scss}line{font-family:\0000314}}
+input {
+  border: none;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/modebol\/sass\/base\.scss}line{font-family:\0000318}}
+.fl {
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/modebol\/sass\/base\.scss}line{font-family:\0000321}}
+.fr {
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/modebol\/sass\/base\.scss}line{font-family:\0000324}}
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: block;
+  line-height: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/modebol\/sass\/base\.scss}line{font-family:\0000333}}
+.clearfix {
+  zoom: 1; }

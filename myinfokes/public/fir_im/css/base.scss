@@ -1,0 +1,51 @@
+body,p{
+  margin: 0;
+}
+ul,ol{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  outline: none;
+  color: #000;
+}
+img{
+  border: 0;
+  vertical-align: middle;
+}
+.clearfix::after{
+  clear: both;
+  content: '';
+  display: block;
+}
+.clearfix{
+  zoom:1;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+// 禁止用户选中
+.useselector{
+  -moz-user-select: none; 
+  -o-user-select:none; 
+  -webkit-user-select:none; 
+  -ms-user-select:none; 
+  user-select:none;
+}
+//选定后
+select {
+  color: inherit;
+  font-family: "Microsoft YaHei", "微软雅黑", "Arial", "黑体", "宋体", sans-serif;
+}
+.noshow{
+  display: none;
+}

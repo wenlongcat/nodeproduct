@@ -1,0 +1,27 @@
+{
+    "data_info": [{
+            "value": 200,
+            "name": "html"
+        },
+        {
+            "value": 180,
+            "name": "css"
+        },
+        {
+            "value": 160,
+            "name": "js"
+        },
+        {
+            "value": 140,
+            "name": "jquery"
+        },
+        {
+            "value": 80,
+            "name": "node"
+        },
+        {
+            "value": 60,
+            "name": "es6"
+        }
+    ]
+}

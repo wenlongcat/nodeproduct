@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<html xmlns=http://www.w3.org/1999/xhtml xmlns:bd=http://www.baidu.com/2010/xbdml>
+     <META http-equiv="X-UA-Compatible" content=IE=Edge>
+		<meta name="Keywords" content="关键词">
+		<meta name="Description" content="描述">
+		<title>my_info</title>
+		<link rel="stylesheet" href="/www/css/My_info.css">
+	</head>
+
+	<body>
+		<canvas></canvas>
+		<div class="info">
+			<div class="header">
+				<img src="/www/img/small.jpg" alt="who">
+				<div class="info_m">
+					<p>性别：男</p>
+					<p>年龄：26</p>
+					<p>最高学历：大专</p>
+				</div>
+			</div>
+			<div class="content">
+				<p>求职意向：前端开发工程师</p>
+				<p>QQ:&nbsp;1044037229</p>
+				<p>tel:&nbsp;13260650015</p>
+				<p>期望薪资：3000-5000</p>
+			</div>
+			<div class="link">
+				<a href="https://github.com/wenlongcat" class='git'><span>My github</span></a>
+			</div>
+		</div>
+		<div id="btnbox">
+			<ul>
+				<li>连线背景</li>
+				<li>雨滴背景</li>
+				<li>星空背景</li>
+				<li>连线背景</li>
+			</ul>
+		</div>
+		<div class="point">&#9756;</div>
+		 <script type='text/javascript' src='/www/js/polyfill.js'></script>
+		<script src="/www/js/My_info.js"></script>
+	</body>
+</html>

@@ -1,0 +1,79 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/ajax\/css\/base\.scss}line{font-family:\000031}}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/ajax\/css\/base\.scss}line{font-family:\000036}}
+ul, ol {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/ajax\/css\/base\.scss}line{font-family:\000039}}
+a {
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/ajax\/css\/base\.scss}line{font-family:\0000312}}
+input {
+  border: none;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/ajax\/css\/base\.scss}line{font-family:\0000316}}
+.fl {
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/ajax\/css\/base\.scss}line{font-family:\0000319}}
+.fr {
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/ajax\/css\/base\.scss}line{font-family:\0000322}}
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+  line-height: 0;
+  height: 0;
+  visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/ajax\/css\/base\.scss}line{font-family:\0000330}}
+.clearfix {
+  zoom: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/ajax\/css\/ajax\.scss}line{font-family:\000033}}
+html {
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/ajax\/css\/ajax\.scss}line{font-family:\000036}}
+body {
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/ajax\/css\/ajax\.scss}line{font-family:\000038}}
+  body section {
+    width: 600px;
+    padding-bottom: 35%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url("../img/bg.png");
+    background-color: gray;
+    background-size: 100% 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/ajax\/css\/ajax\.scss}line{font-family:\0000318}}
+    body section header {
+      width: 100%;
+      padding: 20px;
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/ajax\/css\/ajax\.scss}line{font-family:\0000323}}
+    body section #citys {
+      position: absolute;
+      top: 70px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 50%;
+      height: 30px;
+      border: 1px solid #DD8E4A;
+      border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/ajax\/css\/ajax\.scss}line{font-family:\0000333}}
+    body section .container-box {
+      margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/protope\/ajax\/css\/ajax\.scss}line{font-family:\0000335}}
+      body section .container-box > li {
+        padding-left: 30px; }
