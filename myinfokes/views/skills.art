@@ -28,7 +28,7 @@
         </li>
       </ul>
     <div id="videobox">
-      <video src="/www/video/dream.mp4"  loop poster="/www/img/skill_bg.png" id="ovideo">
+      <video src=""  loop poster="/www/img/skill_bg.png" id="ovideo">
       </video>
       <ul id="tool">
           <li class="isplay"></li>
