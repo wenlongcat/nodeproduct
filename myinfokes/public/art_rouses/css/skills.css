@@ -24,6 +24,70 @@ ul{
   margin: 0;
   padding: 0;
 }
+/*遮罩层*/
+.mask{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1BBC9B;
+  z-index: 99;
+}
+.mask .spinner{
+  margin: 20% auto;
+  width: 200px;
+  height: 60px;
+  font-size: 50px;
+  text-align: center;
+}
+.mask .spinner>div{
+  height: 100%;
+  width: 6px;
+  background-color: #fff;
+  display: inline-block;
+}
+@keyframes shape2change{
+  0%,40%,100%{
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }
+  20%{
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+  }
+}
+@-webkit-keyframes shape2change{
+  0%,40%,100%{
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }
+  20%{
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+  }
+}
+.mask .spinner>div.rect2{
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+}
+.mask .spinner>div.rect3{
+  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+}
+.mask .spinner>div.rect4{
+  animation-delay: 0.8s;
+  -webkit-animation-delay: 0.8s;
+}
+.mask .spinner>div.rect5{
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.mask .spinner>div{
+  animation: shape2change 1.2s infinite ease-in-out;
+  -webkit-animation: shape2change 1.2s infinite ease-in-out;
+}
+
 #box{
   width: 100%;
   height: 100%;
