@@ -45,6 +45,10 @@ $(function(){
         videoWidth();
         change();
       }
+       // 载入video
+      setTimeout(function(){
+        v.src = videoArr[0];
+      },1000);
       oplay.eq(0).on("click",function(){
         init();
         // 点击开始视屏加载
