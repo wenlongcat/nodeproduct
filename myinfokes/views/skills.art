@@ -7,7 +7,6 @@
     <meta name="Keywords" content="关键词">
     <meta name="Description" content="评论">
     <title>技能图</title>
-    <link rel="stylesheet" href="/www/css/tools.css">
     <link rel="stylesheet" href="/www/css/skills.css">
   </head>
   <body>
