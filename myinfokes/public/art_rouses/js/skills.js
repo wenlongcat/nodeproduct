@@ -1,5 +1,6 @@
 $(function(){
   $(document).ready(function(){
+     $(".mask").eq(0).delay(1000).hide();
     // 可多次引用方法
     //addClass兼容
     $.fn.Myadd = function(clas){
