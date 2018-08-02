@@ -223,7 +223,6 @@ $(function(){
           comment();
         })
         function comment(){
-          console.log(videonum);
           if(videonum == 0){
             v.src = videoArr[0];
           }else{
@@ -260,7 +259,7 @@ $(function(){
               $.ajax({
                 type:"GET",
                 dataType: "json",
-                url:"http://localhost:3000/skills.html?opation="+i+"",
+                url:"http://www.yxbdream.top/skills.html?opation="+i+"",
                 success: function(data){
                   no_video();
                   op_opation(data,i);
